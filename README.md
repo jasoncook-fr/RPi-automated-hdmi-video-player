@@ -24,4 +24,4 @@ After verification of no errors at execution of the file, insert this command at
 sudo raspi-config
 ```
 
-A dev folder is included in this repository. The files found here are the building blocks used to create the code. Included "as-is". Little commentary is provided, but should be self-explanatory for a seasoned python programmer.
+A Dev folder is included in this repository (named VideoPlayerDev). The files found here are the building blocks used to create the code. It is included here "as-is". Little commentary is provided, but should be self-explanatory for a seasoned python programmer.
