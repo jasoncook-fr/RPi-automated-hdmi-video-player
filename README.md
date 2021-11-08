@@ -9,7 +9,14 @@ Dependencies are as follows:
 
 ```bash
 sudo apt-get update
-sudo apt-get install python3-pygame
+sudo apt-get install python3-pygame omxplayer usbmount
+```
+The program _usbmount_ is required. In some cases it won't work by default. You may need to modify a line in the following file: <br/>
+
+```bash 
+/lib/systemd/system/systemd-udevd.service
+
+change the line PrivateMounts=yes to PrivateMounts=no
 ```
 
 Python3 is used to execute the included code _videoPlayer.py_ . As follows: <br/>
